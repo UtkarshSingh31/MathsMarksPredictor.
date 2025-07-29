@@ -83,7 +83,7 @@ Navigate to `http://localhost:5000`
 
 ## 📁 **Project Structure**
 
-.
+<pre>'''text .
 └── mathsmarksprediction/
     ├── application.py
     ├── src/
@@ -110,7 +110,7 @@ Navigate to `http://localhost:5000`
     ├── notebook
     ├── requirements.txt
     ├── setup.py
-    └── README.md
+    └── README.md'''</pre>
 
 ## 🎯 **Usage**
 
