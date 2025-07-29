@@ -83,31 +83,32 @@ Navigate to `http://localhost:5000`
 
 ## 📁 **Project Structure**
 
-├── application.py # Main Flask application
+mathsmarksprediction/
+├── application.py
 ├── src/
-│ ├── pipeline/
-│ │ ├── predict_pipeline.py # Prediction pipeline with model ensemble
-│ │ └── train_pipeline.py # Training pipeline for all 7 models
-│ ├── components/
-│ │ ├── data_ingestion.py # Data loading and preprocessing
-│ │ ├── data_transformation.py # Feature engineering
-│ │ └── model_trainer.py # Training all ML algorithms
-│ ├── exception.py # Custom exception handling
-│ ├── logger.py # Logging configuration
-│ └── utils.py # Utility functions
+│   ├── pipeline/
+│   │   ├── predict_pipeline.py
+│   │   └── train_pipeline.py
+│   ├── components/
+│   │   ├── data_ingestion.py
+│   │   ├── data_transformation.py
+│   │   └── model_trainer.py
+│   ├── exception.py
+│   ├── logger.py
+│   └── utils.py
 ├── templates/
-│ ├── home.html # Main prediction form with animations
-│ └── index.html # Landing page
+│   ├── home.html
+│   └── index.html
 ├── static/
-│ ├── style.css # Modern CSS with particle effects
-│ └── script.js # Interactive JavaScript with celebrations
-├── artifacts/ # Trained models and preprocessors
-│ ├── model.pkl # Best performing model (Random Forest)
-│ ├── preprocessor.pkl # Data preprocessing pipeline
-│ └── model_comparison.pkl # All trained models for comparison
-├── notebook/ # Jupyter notebooks for EDA and experiments
-├── requirements.txt # Python dependencies
-├── setup.py # Package configuration
+│   ├── style.css
+│   └── script.js
+├── artifacts/
+│   ├── model.pkl
+│   ├── preprocessor.pkl
+│   └── model_comparison.pkl
+├── notebook/
+├── requirements.txt
+├── setup.py
 └── README.md
 
 ## 🎯 **Usage**
