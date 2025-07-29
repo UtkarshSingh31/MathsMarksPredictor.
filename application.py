@@ -13,6 +13,11 @@ app=application
 
 ### route for a home page
 
+# Serve static files
+@app.route('/static/<path:filename>')
+def static_files(filename):
+    return app.send_static_file(filename)
+
 @app.route('/')
 def index():
     return render_template('index.html')
