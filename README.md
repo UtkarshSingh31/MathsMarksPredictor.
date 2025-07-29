@@ -83,35 +83,34 @@ Navigate to `http://localhost:5000`
 
 ## 📁 **Project Structure**
 
-mathsmarksprediction/
-├── application.py
-├── src/
-│   ├── pipeline/
-│   │   ├── predict_pipeline.py
-│   │   └── train_pipeline.py
-│   ├── components/
-│   │   ├── data_ingestion.py
-│   │   ├── data_transformation.py
-│   │   └── model_trainer.py
-│   ├── exception.py
-│   ├── logger.py
-│   └── utils.py
-├── templates/
-│   ├── home.html
-│   └── index.html
-├── static/
-│   ├── style.css
-│   └── script.js
-├── artifacts/
-│   ├── model.pkl
-│   ├── preprocessor.pkl
-│   └── model_comparison.pkl
-├── notebook/
-├── requirements.txt
-├── setup.py
-└── README.md
-
-undefined
+.
+└── mathsmarksprediction/
+    ├── application.py
+    ├── src/
+    │   ├── pipeline/
+    │   │   ├── predict_pipeline.py
+    │   │   └── train_pipeline.py
+    │   ├── components/
+    │   │   ├── data_ingestion.py
+    │   │   ├── data_transformation.py
+    │   │   └── model_trainer.py
+    │   ├── exception.py
+    │   ├── logger.py
+    │   └── utils.py
+    ├── templates/
+    │   ├── home.html
+    │   └── index.html
+    ├── static/
+    │   ├── style.css
+    │   └── script.js
+    ├── artifacts/
+    │   ├── model.pkl
+    │   ├── preprocessor.pkl
+    │   └── model_comparison.pkl
+    ├── notebook
+    ├── requirements.txt
+    ├── setup.py
+    └── README.md
 
 ## 🎯 **Usage**
 
