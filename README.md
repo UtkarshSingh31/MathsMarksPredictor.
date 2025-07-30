@@ -61,12 +61,10 @@ The model uses **student performance data** with the following features:
 ### **Local Development**
 
 1. **Clone the repository**
-   git clone https://github.com/yourusername/mathsmarksprediction.git
-   cd mathsmarksprediction 
+   git clone https://github.com/UtkarshSingh31/MathsMarksPredictor.
 
 2. **Create virtual environment**
    python -m venv venv
-   source venv/bin/activate # On Windows: venv\Scripts\activate
 
 3. **Install dependencies**
     pip install -r requirements.txt
